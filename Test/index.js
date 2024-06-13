@@ -1,1 +1,0 @@
-// Exception handling logger in the terminal
