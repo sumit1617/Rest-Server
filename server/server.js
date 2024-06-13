@@ -4,6 +4,7 @@ const connectDatabase = require("./config/database");
 // Config
 if (process.env.NODE_ENV !== "PRODUCTION") {
   require("dotenv").config({ path: __dirname + "/config/config.env" });
+  console.log(`Environment ${process.env.NODE_ENV}`);
 }
 
 // Handling Uncaught Exception
